@@ -1,0 +1,26 @@
+.messageBox{
+   
+  
+    padding: 1vmax;
+    margin: 1.8vmax;
+    border-radius: 0.5vmax;
+    display: inline-block;
+    clear: both;
+    font-size: 1.2vmax;
+    font-family: "Playwrite AU NSW", cursive;
+}
+
+.right{
+    float: right;
+    background-color: rgba(220, 20, 133, 0.81);
+    color: white;
+    text-align: right;
+
+}
+
+.left{
+    float: left;
+    background-color: rgba(70, 128, 0, 0.504);
+    text-align: left;
+
+}

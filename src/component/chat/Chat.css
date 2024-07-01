@@ -1,0 +1,83 @@
+.chatPage {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(31, 29, 29);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chatContainer {
+  background-color: white;
+  height: 60%;
+  width: 50%;
+}
+.header {
+  background-color: rgba(119, 6, 119, 0.868);
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header > h2 {
+  color: whitesmoke;
+  margin: 2.5vmax;
+}
+
+.header > a > img {
+  margin: 2.5vmax;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.header > a > img:hover {
+  transform: scale(1.2);
+}
+
+.chatBox {
+  height: 70%;
+  box-sizing: border-box;
+}
+
+.inputBox {
+  height: 15%;
+  box-sizing: border-box;
+  display: flex;
+}
+
+#chatInput {
+  width: 80%;
+  border: none;
+  background-color: white;
+  padding: 2vmax;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Playwrite AU NSW", cursive;
+  font-size: 1.2vmax;
+  border-top: 0.2vmax solid rgba(0, 0, 0, 0.562);
+}
+
+.sendBtn {
+  background-color: crimson;
+  color: white;
+  border: none;
+  width: 21%;
+  font-size: 2vmax;
+  font-family: "Playwrite AU NSW", cursive;
+  transition: all 0.3s;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sendBtn > img {
+  height: 2vmax;
+  width: 2vmax;
+  filter: invert(1);
+  transition: all 0.3s;
+}
+.sendBtn:hover {
+  background-color: rgb(118, 11, 32);
+}
+
+.sendBtn:hover img {
+  transform: translateX(10px);
+}
